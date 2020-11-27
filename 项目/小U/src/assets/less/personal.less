@@ -1,0 +1,184 @@
+@charset "utf-8";
+@import "public.less";
+body{
+    background-color: #f1f1f1;
+}
+/* page */
+.page{
+    overflow: hidden;
+   .headcon{
+       background-color: #f26b11;
+       border-bottom: 1px solid #e4e4e4;
+       .flex;
+       align-items: center;
+       height: .88rem;
+       padding: 0 .23rem;
+       padding-top: .4rem;
+       p{
+           font: .35rem "微软雅黑";
+           color: #fff;
+       }
+       .menu{
+           span{
+               background-color: #fff;
+           }
+       }
+   }
+   .portrait{
+       background-color: #f26b11;
+       .zuo{
+            width: 3.51rem;
+            padding: .27rem 0 .27rem .3rem;  
+           .tu{
+               width: 1.4rem;
+               height: 1.4rem;
+               text-align: center;
+               border-radius: 50%;   
+               overflow: hidden;
+               position: relative;
+               border: .05rem solid #ffffff; 
+               background-color: #822e02;      
+               img{
+                position: absolute;
+                left: 0;
+                top: .06rem;
+                width: auto;
+                height: 1.36rem;
+               }
+           }
+           .zi{
+               margin-left: .25rem;
+               p{
+                    font: .3rem "微软雅黑";
+                    color: #fcffff;
+                    margin-top: .43rem;
+                    padding-bottom: .03rem;
+               }
+               i{
+                   font: .28rem "微软雅黑";
+                   color: #000;
+                   font-style: italic;
+                   
+               }
+           }
+       }
+       .you{
+        //    width: 3.5rem;
+           a{
+               display: block;
+               width: 1.6rem;
+               height: .7rem;
+               background-color: #fff;
+               border-radius: .04rem;
+               font: .28rem/.7rem "微软雅黑";
+               color: #f26a12;
+               text-align: center;
+               margin-right: .35rem;
+               margin-top: .74rem;
+           }
+       }
+   }
+   .order{
+       background-color: #fff;
+       padding: .32rem 0 .29rem 0;
+       overflow: hidden;
+       div{
+           float: left;
+           text-align: center;
+           p{
+               font: .24rem "微软雅黑";
+               color: #555555;
+           }
+       }
+       .co1{
+           margin-left: .5rem;
+           img{
+               width: auto;
+               height: .34rem;
+           }
+       }
+       .co2{
+           margin-left: 1.7rem;
+           margin-right: 2.05rem;
+           img{
+               width: auto;
+               height: .3rem;
+           }
+       }
+       .co3{
+           margin-right: .3rem;
+           img{
+               width: auto;
+               height: .29rem;
+           }
+       }
+   }
+   .main{
+       margin-top: .2rem;
+       background-color: #fff;
+       padding-bottom: 1.3rem;
+       .con{
+           padding: .35rem 0;
+           border-bottom: .01rem solid #d9d9d9;
+            .zuo{
+                overflow: hidden;
+                img{
+                    width: auto;
+                    height: .4rem;
+                    margin: 0 .23rem;
+                }
+                p{
+                    font: .24rem "微软雅黑";
+                    color: #696969;
+                }
+            }
+            .you{
+                p{
+                    font: .24rem "微软雅黑";
+                    color: #f96908;
+                    margin-right: .2rem;
+                }
+                a{
+                    display: block;
+                    margin-right: .3rem;
+                    img{
+                        width: auto;
+                        height: .26rem;
+                        margin-top: 5px;
+                    }
+                }
+            }
+       }
+   }
+}
+/* fotter */
+.fotterbox{
+    margin-top: .28rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+    background-color: #fff;
+    height: 1.17rem;
+    border-top: 1px solid #d0d0d0;
+    width: 100%;
+    box-sizing: border-box;
+    >a{
+        display: block;
+        text-align: center;
+        >img{
+            height: .53rem;
+            width: auto ;
+        }
+        >p{ 
+           font: .18rem "微软雅黑";
+            color: #7d7d7d;
+        }
+        >.tt{
+            color: #ef6b16;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+.page {
+  max-width: 7.5rem;
+  margin: 0 auto;
+}
+.page .menu {
+  width: .55rem;
+  display: flex;
+  justify-content: space-between;
+}
+.page .menu span {
+  display: block;
+  width: .12rem;
+  height: .12rem;
+  background-color: #040404;
+  border-radius: 50%;
+}
+body {
+  background-color: #f1f1f1;
+}
+/* page */
+.page .headcon {
+  background-color: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .88rem;
+  padding: 0 .23rem;
+  padding-top: .4rem;
+}
+.page .headcon p {
+  font: 0.35rem "微软雅黑";
+  color: #fff;
+}
+.page .headcon .menu span {
+  background-color: #000;
+}
+.page .main {
+  background-color: #fff;
+}
+.page .main .search div {
+  width: 6.22rem;
+  margin: 0 auto;
+  padding-top: .22rem;
+  padding-bottom: .5rem;
+  position: relative;
+}
+.page .main .search div input {
+  text-align: center;
+  margin-left: .58rem;
+  margin: 0 auto;
+  background-color: #f26b11;
+  width: 6.22rem;
+  font: 0.26rem/0.77rem "微软雅黑";
+  color: #fff;
+  border-radius: .45rem;
+}
+.page .main .search div input::placeholder {
+  color: #fff;
+}
+.page .main .search div img {
+  width: auto;
+  height: .27rem;
+  position: absolute;
+  left: 2.1rem;
+  top: .47rem;
+}
+.page .main .con .inner {
+  width: 7.04rem;
+  margin: 0 auto;
+}
+.page .main .con .inner .cl1 {
+  border-top: 1px solid #d1d1d1;
+}
+.page .main .con .inner > div {
+  padding-top: .2rem;
+  padding-bottom: .32rem;
+  border-bottom: 1px solid #d1d1d1;
+}
+.page .main .con .inner > div .zuo {
+  width: 1.55rem;
+  text-align: center;
+}
+.page .main .con .inner > div .zuo img {
+  width: auto;
+  height: 1.6rem;
+}
+.page .main .con .inner > div .you {
+  width: 5.39rem;
+}
+.page .main .con .inner > div .you p {
+  margin-left: .4rem;
+}
+.page .main .con .inner > div .you .p1 {
+  font: 0.26rem/0.36rem "微软雅黑";
+  color: #000;
+}
+.page .main .con .inner > div .you .p2 {
+  font: 0.26rem/0.36rem "微软雅黑";
+  color: #e5393c;
+  margin-top: .15rem;
+}
+.page .main .con .inner > div .you .p3 {
+  font: 0.26rem/0.36rem "微软雅黑";
+  color: #999999;
+  margin-top: .20rem;
+}
+/* fotter */
+.fotterbox {
+  margin-top: .28rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .5rem;
+  background-color: #fff;
+  height: 1.17rem;
+  border-top: 1px solid #d0d0d0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.fotterbox > a {
+  display: block;
+  text-align: center;
+}
+.fotterbox > a > img {
+  height: .53rem;
+  width: auto ;
+}
+.fotterbox > a > p {
+  font: 0.18rem "微软雅黑";
+  color: #7d7d7d;
+}
+.fotterbox > a > .tt {
+  color: #ef6b16;
+}
